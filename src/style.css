@@ -1,1 +1,7 @@
 @import "tailwindcss";
+
+@theme {
+  --font-sans: "Pretendard Variable", sans-serif;
+
+  --ipad-air: url(./apple/ipad_air.jpeg);
+}

@@ -3,21 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>유틸리티 퍼스트 — Tailwind CSS</title>
+    <title>Vite와 Tailwind CSS의 만남</title>
     <link rel="icon" href="/vite.svg" />
+    <link
+      rel="preload"
+      as="font"
+      href="/font/woff2/PretendardVariable.woff2"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" as="style" href="/font/pretendardvariable.css" />
     <script type="module" src="/src/main.js"></script>
   </head>
-  <body>
-    <section class="flex flex-col items-center">
-      <h1 class="text-3xl font-bold text-blue-500 underline my-4">
-        Vite + Tailwind CSS
-      </h1>
-
-      <h2 class="text-xl">Components & Page</h2>
-      <ul class="my-2">
-        <li><a href="./src/components/button.html">Button</a></li>
-        <li><a href="./src/pages/login.html">Login</a></li>
-      </ul>
-    </section>
+  <body
+    class="bg-pink-200 font-sans flex flex-col justify-center items-center h-screen gap-10"
+  >
+    <h1 class="text-3xl font-bold underline text-center">
+      Vite + Tailwind CSS
+    </h1>
+    <ul class="space-y-4 text-2xl">
+      <li><a href="./src/components/apple-card.html">애플 카드 컴포넌트</a></li>
+      <li><a href="./src/pages/apple.html">애플 카드 레이아웃</a></li>
+    </ul>
   </body>
 </html>
